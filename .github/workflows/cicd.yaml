@@ -8,4 +8,6 @@ jobs:
     steps:
       - name: step 1
         run: echo ${{ secrets.SECRET_TEST }}
+      - name: list_elements
+        run: ls -a -l
       
